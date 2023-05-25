@@ -1,0 +1,11 @@
+X = [5,55,84,63,45]
+
+for i in range(0,len(X)-1):
+    for j in range(i+1, len(X)):
+         if X[i] > X[j]:
+             c = X[i]
+             X[i] = X[j]
+             X[j] = c
+
+
+print(X)
